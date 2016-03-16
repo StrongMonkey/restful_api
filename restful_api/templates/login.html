@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<form action="authenticate/" method="post">
+    {% csrf_token %}
+    <input type="submit" value="login using google+">
+</form>
+</body>
+</html>

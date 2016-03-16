@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form action="../requests/" method="post">
+    {% csrf_token %}
+    token: <input type="text" name="token"><br>
+    meal_type: <input type="text" name="meal_type"><br>
+    location_string: <input type="text" name="location_string"><br>
+    latitude: <input type="text" name="latitude"><br>
+    longitude: <input type="text" name="longitude"><br>
+    meal_time: <input type="text" name="meal_time"><br>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
